@@ -1,0 +1,12 @@
+.gambar img {
+    width: 30%;
+    height: 10%;
+}
+
+.isi {
+    text-align: center;
+}
+
+.isi h3 {
+    margin: 2% 0;
+}

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/page2.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <title>Our Challenges</title>
+  </head>
+  <body>
+    <div class="container">
+        <h2>Our Challenges</h2>
+        <div class="content">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="gambar">
+                        <img src="asset/ilustrasi.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-6 ">
+                    <div class="isi">
+                        <nav>
+                            <a href="#isu" id="btn-submit1">Isu</a>
+                            <a href="#masalah" id="btn-submit2">Permasalahan</a>
+                            <a href="#usaha" id="btn-submit3">Usaha dan Hambatan</a>
+                            <a href="#tujuan" id="btn-submit4">Tujuan</a>
+                        </nav>
+                        <div id="isu" class="konten d-none">
+                            <p>
+                            MS Wellbeing Centre memiliki keinginan untuk mengenalkan mengenai pentingnya kesehatan mental dan bagaimana cara mengatasinya.</p></div>
+                        <div id="masalah" class="konten d-none">
+                            <p>Kurangnya informasi mengenai lembaga psikologi dan kurangnya pengetahuan masyarakat mengenai kesehatan metal.</p></div>
+                        <div id="usaha" class="konten d-none">
+                            <p> Solusi yang sudah dilakukan adalah dengan memberikan informasi pentingnya kesehatan mental dengan mengadakan edukasi melalui instragram & webinar-webinar berbagai topik psikologi, tetapi cara ini belum efektif menjangkau orang dalam jumlah yang lebih banyak.</p>
+                           <p> Kamu diperbolehkan melakukan eksplorasi dan membuat asumsi sendiri di luar dari detail challenge yang diberikan. Sebagai contoh, jika challenge tidak menerangkan lebih detail mengenai target pengguna, maka kamu bisa asumsikan sendiri profil pengguna yang berpotensi menggunakan produk dari partner. Tidak hanya itu, kamu juga bisa bereksplorasi untuk menghasilkan flow produk digital yang lebih baik jika dibutuhkan.</p></div>
+                        <div id="tujuan" class="konten d-none">
+                            <p>Buatlah sebuah solusi ataupun inovasi digital dalam bentuk prototype, MVP ataupun pitch deck yang dapat menjawab pertanyaan yang merupakan masalah dari MS Wellbeing Center berikut ini :</p>
+                            <p>Bagaimana mengatasi kurangnya informasi mengenai lembaga psikologi dan kurangnya pengetahuan masyarakat mengenai kesehatan metal?</p>
+                            <p>Kamu dapat menggunakan software rekomendasi kami sebagai referensi atau alat bantu untuk menjawab tantangan di atas. Jika kamu ingin upload yang file yang dibutuhkan untuk menjawab tugas proyek, silahkan gunakan Google Drive dan berikan akses link.</p>
+                        </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <script>
+        let elBtnSubmit = document.querySelector("#btn-submit1")
+        elBtnSubmit.addEventListener('click', () => {
+            let tampilIsu = document.getElementById("isu")
+            tampilIsu.classList.toggle("d-none")
+        })
+        let elBtnSubmit2 = document.querySelector("#btn-submit2")
+        elBtnSubmit2.addEventListener('click', () => {
+            let tampilMasalah = document.getElementById("masalah")
+            tampilMasalah.classList.toggle("d-none")
+        })
+        let elBtnSubmit3 = document.querySelector("#btn-submit3")
+        elBtnSubmit3.addEventListener('click', () => {
+            let tampilUsaha = document.getElementById("usaha")
+            tampilUsaha.classList.toggle("d-none")
+        })
+        let elBtnSubmit4 = document.querySelector("#btn-submit4")
+        elBtnSubmit4.addEventListener('click', () => {
+            let tampilTujuan = document.getElementById("tujuan")
+            tampilTujuan.classList.toggle("d-none")
+        })
+        
+    </script>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
